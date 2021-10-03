@@ -24,7 +24,7 @@ void lab_5() {
     while (user_input_lab_5 != 0) {
         cout << endl << "¬ведите номер нужной задачи или введите 0 дл€ закрыти€ лаб. работы: ";
         cin >> user_input_lab_5;
-        user_fall_lab_4();
+        user_fall_lab_5();
         switch (user_input_lab_5) {
         case 1:
             lab_5_1();

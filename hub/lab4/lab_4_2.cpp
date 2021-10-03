@@ -1,7 +1,7 @@
 using namespace std;
 
 void lab_4_2() {
-	double d, L;
+	double d;
 	const double pi = 3.14;
 	cout << "Диаметр: ";
 	cin >> d;
