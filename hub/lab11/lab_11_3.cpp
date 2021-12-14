@@ -9,14 +9,14 @@ void lab_11_3() {
 
 		cout << "Лабораторная работа №11. Задача №3" << endl;
 		cout << "На плоскости расположены три точки: A, B, C. Определить, какая из двух последних точек (B или C) расположена ближе к A, и вывести эту точку и ее расстояние от точки A" << endl << endl;
-		int x_a, y_a, x_b, y_b, x_c, y_c;
+		double x_a, y_a, x_b, y_b, x_c, y_c;
 		cout << "Введите координаты точки А: " << endl;
 		cin >> x_a >> y_a;
 		cout << "Введите координаты точки B: " << endl;
 		cin >> x_b >> y_b;
 		cout << "Введите координаты точки C: " << endl;
 		cin >> x_c >> y_c;
-		int db, dc;
+		double db, dc;
 		db = sqrt(pow((x_a - x_b), 2) + pow((y_a - y_b), 2));
 		dc = sqrt(pow((x_a - x_c), 2) + pow((y_a - y_c), 2));
 		if (db > dc) {
